@@ -12,5 +12,5 @@ mongoose.connect('mongodb://localhost/customerdb',() =>
 
 
 app.listen(process.env.port || 4000, ()=>{
-    console.log(`Server up and running: http://localhost:3000`);
+    console.log(`Server up and running: http://localhost:4000`);
 });
